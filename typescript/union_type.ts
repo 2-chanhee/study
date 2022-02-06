@@ -21,3 +21,11 @@ const getSmallPet = (): Fish | Bird => {
 let pet = getSmallPet();
 pet.layEggs();
 pet.swim(); // 오류, 둘 다 가지고 있어야 함
+
+//////
+
+let a: string | number; //string type 또는 number type
+
+a = "234";
+
+a = 1;
